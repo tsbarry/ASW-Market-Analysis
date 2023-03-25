@@ -36,5 +36,6 @@ merge_1 = pd.merge(salaries_df, jobs_df, how="inner", on=["id"])
 total_merge = pd.merge(merge_1, skills_df, how="inner", on=["id"])
 print(total_merge)
 
-total_merge.to_csv('data/joined_data.csv', encoding= 'utf-8', index = False, line_terminator= '\n' )  
+# saving the joined_data into a csv file
+total_merge.to_csv('data/joined_data.csv')  
 
