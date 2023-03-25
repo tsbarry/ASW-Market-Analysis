@@ -6,19 +6,23 @@ To start I used sqlalchemy to extract the data from the database, and created th
 
 ## Results
 ![](images/work_from_home_boxplot.jpg)
+
 Observing the visualisations we can notice that people who work from home have less of a salary compared to those who work from the office. 
 Despite both remote and non-remote having a p-value greater than 0.05, if we drop the outliers the p-values could change. 
 
 ![](images/ranked_skills.jpg)
+
 In addition, we also observe that the top ranked skills for data analyst are SQL, excel, tableau, python, power-bi, and R. 
 
 ![](images/sql_salaries_boxplot.jpg)
 ![](images/python_salaries_boxplot.jpg)
 ![](images/tableau_salaries_boxplot.jpg)
-Also people with SQL, python, and tableau skill have a higher salary compared to those who do not. 
+
+Also people with SQL, python, and tableau skill have a higher salary compared to those who do not. Therefore making it important for anyone seeking a data analysit job to posses these skills  
 
 ![](images/ranked_cities.jpg)
 ![](images/company_salaries_boxplot.jpg)
+
 Moreover, some of the top cities for data analyst apart from LA, NY and Atlanta, are cities such as Wichita, Maize, Tulsa.  For the top companies, there is a mix of companies and external contracts therefore some of the top companies for data analyst base on this visual are Citi, Edward Jones and Apex systems.  
 
 ## Next Actions
