@@ -5,19 +5,20 @@ This project aim to generate a complete ETL and EDA pipeline and analysis of the
 To start I used sqlalchemy to extract the data from the database, and created three pandas dataframes. In addition I joined the tables on their primary key, then saved the joined data into a csv file in the data folder. In the next phase of transforming the data, I first read the joined csv file and dropped all the null values from the description_tokens and the salary_standardized columns. Then filled in the missing values in the work_from_home column to be false. After cleaning this data I saved into csv file and into the data folder. Furthermore, I created a new column for each possible skill in the description_tokens column using a multi label binarizer. I first converted the description_tokens column into a column of lists then encoded each skill as a unique column, then save it as csv file into the data folder. Lastly, after cleaning and preparing all the data, I did some eda in order to answer the questions above. I created some visualisation of the distribution of standard_salaries and then exploring the salaries of working from home vs office. Also salaries of having skills such as python or tableau or sql versus not possessing these skills. I also looked at top ranked skills, companies and cities for data analysts positions. To get more insight I did statistical analysis by performing a t-test and a Kolmogorov Smirnov test. 
 
 ## Results
-image.png
+![](images/work_from_home_boxplot.jpg)
 Observing the visualisations we can notice that people who work from home have less of a salary compared to those who work from the office. 
 Despite both remote and non-remote having a p-value greater than 0.05, if we drop the outliers the p-values could change. 
 
-image.png
+![](images/ranked_skills.jpg)
 In addition, we also observe that the top ranked skills for data analyst are SQL, excel, tableau, python, power-bi, and R. 
-image.png 
-image.png
-image.png
+
+![](images/sql_salaries_boxplot.jpg)
+![](images/python_salaries_boxplot.jpg)
+![](images/tableau_salaries_boxplot.jpg)
 Also people with SQL, python, and tableau skill have a higher salary compared to those who do not. 
 
-image.png
-image.png
+![](images/ranked_cities.jpg)
+![](images/company_salaries_boxplot.jpg)
 Moreover, some of the top cities for data analyst apart from LA, NY and Atlanta, are cities such as Wichita, Maize, Tulsa.  For the top companies, there is a mix of companies and external contracts therefore some of the top companies for data analyst base on this visual are Citi, Edward Jones and Apex systems.  
 
 ## Next Actions
