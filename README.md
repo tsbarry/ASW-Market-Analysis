@@ -1,4 +1,4 @@
-# ASW-Market-Analysis
+# AWS-Market-Analysis
 This project aim to generate a complete ETL and EDA pipeline and analysis of the current job market for data analysts, with the aim of evaluating which skills are the most sought after, the cities and companies that are hiring the most data analysts and also investigate the salary outcome of remote vs non-remote work. The project is built using Amazon PostgresSQL, sqlalchemy, sklearn and python’s libraries such as pandas and seaborn. 
 
 ## Methodology
