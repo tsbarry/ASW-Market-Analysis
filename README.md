@@ -23,6 +23,7 @@ This visualisation display that the median salary of data analysist is close to 
 This box plot comapres the remote workers versus non-remote workers and base on this observation we notice that the median salary for people who work from home is less compared to those who work from the office. And both of these boxplots have lot of outliers. The T-test and KS-test both indicate a p-value of less than 0.05 therefore this tell us that there is a statistically significant difference between working from home and not working from home, as the salaries indicate as well.  
 
 KstestResult(statistic=0.18113066066731165, pvalue=3.184538697598516e-26)
+
 Ttest_indResult(statistic=-3.9416042344144477, pvalue=8.34357154515801e-05)
 
 ![](images/ranked_skills.jpg)
@@ -34,16 +35,19 @@ These boxplots illustrate jobs that require sql, python or tableau versus jobs t
 ![](images/sql_salaries_boxplot.jpg)
 
 KstestResult(statistic=0.14859694970660242, pvalue=2.428624055011539e-22) 
+
 Ttest_indResult(statistic=5.010842822466604, pvalue=5.845959349504406e-07)
 
 ![](images/python_salaries_boxplot.jpg)
 
 KstestResult(statistic=0.10816134598371768, pvalue=5.1004787412886686e-05)
+
 Ttest_indResult(statistic=4.752007752153935, pvalue=2.1425679458331286e-06)
 
 ![](images/tableau_salaries_boxplot.jpg)
 
 KstestResult(statistic=0.22652993258106247, pvalue=1.9059409500066205e-33)
+
 Ttest_indResult(statistic=2.60192320578311, pvalue=0.009331719250939272)
 
 These boxplots indicate that jobs that require skills such as SQL, python, and tableau have a higher salary compared to jobs that do not require SQL, python,and tableau. In addition, the p-values of less than 0.05 from the KS-test and T-tes tell us that there is a statistically significant difference between the salaries jobs that require SQL, python and tableau and those that do not, therefore making it important for anyone seeking a data analysit job to posses these skills for a better salary.
