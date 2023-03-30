@@ -55,8 +55,4 @@ These boxplots indicate that jobs that require skills such as SQL, python, and t
 From these visualisations, some of the top cities for data analyst apart from LA, NY and Atlanta, are cities such as Wichita, Maize, Tulsa, after United States and Anywhere being the top, however this is not a good representation as it is not clear. For the top companies, there is a mix of companies and external contracts therefore some of the top companies for data analyst base on this visualisation are Citi, Edward Jones and Apex systems.  
 
 ## Next Actions
-<<<<<<< HEAD
-Further action that can be taking to better this project is to remove outlier in some of the data and see what effect it has, and also for top ranked cities have better data because the top two are anywhere and united states therefore a better data to make things clear. Similarly, have better day so that we do not include contract work included in companies that are hiring. 
-=======
-Further action that can be taking to better this project is to remove outlier in some of the data and see what effect it has, and also for top ranked cities have better data because the top two are anywhere and united states therefore a better data to make things clear.
->>>>>>> 2b6abebbdc3d3929c50cab6e4416c0cd387e3fcd
+Further action that can be taking to better this project is to remove outlier in some of the data and see what effect it has, and also for top ranked cities have better data because the top two are 'anywhere' and united states therefore a better data to make things clear. Similarly, have better data so that we do not include contract works included in companies that are hiring. 
