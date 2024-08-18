@@ -1,14 +1,70 @@
 # AWS-Market-Analysis
-This project aims to generate a complete ETL and EDA pipeline and analysis of the current job market for data analysts, with the aim of evaluating which skills are the most sought after, the cities and companies that are hiring the most data analysts, and also investigate the salary outcome of remote vs non-remote work. The project is built using Amazon PostgresSQL, sqlalchemy, sklearn, and Python’s libraries such as pandas and seaborn. 
 
+## Table of Contents 
+
+- [Project Overview](#project-overview)
+- [Data Sources ](#data-sources)
+- [Tools](#tools)
+- [Methodology](#methodology)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis) 
+- [Results Findings](#results-findings)
+- [Recommendations](#recommendations)
+
+##  Project Overview 
+
+This project aims to develop a comprehensive ETL (Extract, Transform, Load) and EDA (Exploratory Data Analysis) pipeline to analyze the current job market for data analysts. The key objectives include:
+
+- Evaluating which technical and soft skills are most sought after by employers in the data analysis field.
+- Identifying the cities and companies that are actively hiring the most data analysts, providing insight into regional demand.
+- Investigating salary outcomes to compare compensation for remote vs. non-remote positions, offering a clear picture of market trends.
+
+The outcome of this project will provide valuable insights for aspiring data analysts and professionals looking to understand current market demands and optimize their career strategies.
+
+## Data Sources 
+
+Data: The primary dataset used for this analysis is the CSV files in the data folder. This data was retrieved from an AWS site.
+
+## Tools 
+
+PostgreSQL: For database management and data storage.
+
+SQLAlchemy: For SQL toolkit and Object-Relational Mapping (ORM) in Python.
+
+sklearn: For implementing machine learning algorithms and models.
+
+Python Libraries:
+
+  - Pandas: For data manipulation and analysis.
+  - Seaborn: For data visualization and statistical plotting.
+    
 ## Methodology
-To start I used sqlalchemy to extract the data from the database and created three pandas DataFrames. In addition, I joined the tables on their primary key, then saved the joined data into a CSV file in the data folder. 
+In the data analysis phase, the following tasks were performed:
 
-After data extraction, next, I transform the data by first dropping all the null values from the description_tokens and the salary_standardized columns. Then filled in the missing values in the work_from_home column to be false. After cleaning this data I saved it into a CSV file and into the data folder. Furthermore, I created a new column for each possible skill in the description_tokens column using a multi-label binarizer. I first converted the description_tokens column into a column of lists then encoded each skill as a unique column, then saved it as csv file into the data folder.
+1. Data extraction from the PostgreSQL database using SQLalchemy.
+2. Data inspection, cleaning, and manipulation. (Dropped null values, filled missing values, created new columns)
+3. Created a new column for each possible skill in the description_tokens column using MultiLabelBinarizer:
+  - Converted description_tokens into a list of skills.
+  - Encoded each skill as a unique column and saved it as a CSV file in the data folder.
+4. Created three pandas DataFrames from the extracted data.
+5. Joined tables on their primary key and saved the merged data into a CSV file in the data folder.
+6. Conducted visualizations to examine the distribution of standard salaries.
+7. Compared salaries for remote versus non-remote based positions.
+8. Analyzed salaries for jobs requiring skills like Python, Tableau, or SQL versus those that do not.
+9. Identified top-ranked skills, companies, and cities for data analyst positions.
+10. Performed statistical analysis using a t-test and Kolmogorov-Smirnov test to gain deeper insights into the data.
 
- Lastly, after cleaning and preparing all the data, I did some EDA to answer the questions above. I created some visualization of the distribution of standard salaries and then explored the salaries of working from home vs office. Also salaries of jobs that require skills such as Python, tableau, or SQL versus jobs that do not require these skills. I also looked at top-ranked skills, companies, and cities for data analyst positions. To get more insight I did statistical analysis by performing a t-test and a Kolmogorov Smirnov test. 
+## Exploratory Data Analysis
+EDA involved exploring the sales data to answer key questions such as:
 
-## Visuals & Results
+- What is the salary standard for data analysts? 
+- What is the salary standardized for remote v non-remote workers?
+- What are the most sought-after skills by employers in the data analysis field?
+- Which cities and companies are actively hiring data analysts?
+
+## Data Analysis
+
+Here are some examples of the visuals from the analyses
 
 ![](images/sal_stand_boxplot.jpg) 
 
