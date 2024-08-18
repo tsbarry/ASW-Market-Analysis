@@ -68,47 +68,50 @@ Here are some examples of the visuals from the analyses
 
 ![](images/sal_stand_boxplot.jpg) 
 
-This visualization displays that the median salary of a data analyst is close to 100000 and this histogram is right skewed therefore the mean is greater than the median. Also, there are a lot of outliers, therefore if we remove the outlier we can get close to normality. 
-
+This histogram indicates that the median salary for data analysts is approximately $100,000. The distribution is right-skewed, which suggests that the mean salary is higher than the median. The presence of a significant number of outliers contributes to this skewness. By removing these outliers, we could achieve a distribution that is closer to normality.
 ![](images/work_from_home_boxplot.jpg)
 
-This box plot compares remote workers versus non-remote workers and based on this observation we notice that the median salary for people who work from home is less compared to those who work from the office. And both of these boxplots have a lot of outliers. The T-test and KS-test both indicate a p-value of less than 0.05 therefore this tells us that there is a statistically significant difference between working from home and not working from home, as the salaries indicate as well.  
+This box plot compares the salaries of remote workers versus non-remote workers. The observation shows that the median salary for those who work from home is lower than that of those who work from the office. Both box plots exhibit a significant number of outliers. Additionally, both the T-test and KS-test yield p-values of less than 0.05, indicating a statistically significant difference between the salaries of remote and non-remote workers. 
 
-KstestResult(statistic=0.18113066066731165, pvalue=3.184538697598516e-26)
+- KstestResult(statistic=0.18113066066731165, pvalue=3.184538697598516e-26)
 
-Ttest_indResult(statistic=-3.9416042344144477, pvalue=8.34357154515801e-05)
+- Ttest_indResult(statistic=-3.9416042344144477, pvalue=8.34357154515801e-05)
 
 ![](images/ranked_skills.jpg)
 
-This bar graph displays the top-ranked skills and we can observe that the top-ranked skills for data analysts are SQL, excel, tableau, python, power-bi, and R. This is reasonable since these are skills that most data analysts use in their day-to-day tasks. 
+This bar graph highlights the top-ranked skills for data analysts. The most frequently cited skills are SQL, Excel, Tableau, Python, Power BI, and R. This is consistent with industry expectations, as these are the tools and technologies commonly used by data analysts in their day-to-day tasks.
+These boxplots illustrate jobs that require SQL, python, or Tableau versus jobs that do not need these skills.
 
-These boxplots illustrate jobs that require SQL, python, or Tableau versus jobs that do not need these skills
+#### These boxplots below compare jobs that require SQL, Python, or Tableau with those that do not
 
 ![](images/sql_salaries_boxplot.jpg)
 
-KstestResult(statistic=0.14859694970660242, pvalue=2.428624055011539e-22) 
+- KstestResult(statistic=0.14859694970660242, pvalue=2.428624055011539e-22) 
 
-Ttest_indResult(statistic=5.010842822466604, pvalue=5.845959349504406e-07)
+- Ttest_indResult(statistic=5.010842822466604, pvalue=5.845959349504406e-07)
 
 ![](images/python_salaries_boxplot.jpg)
 
-KstestResult(statistic=0.10816134598371768, pvalue=5.1004787412886686e-05)
+- KstestResult(statistic=0.10816134598371768, pvalue=5.1004787412886686e-05)
 
-Ttest_indResult(statistic=4.752007752153935, pvalue=2.1425679458331286e-06)
+- Ttest_indResult(statistic=4.752007752153935, pvalue=2.1425679458331286e-06)
 
 ![](images/tableau_salaries_boxplot.jpg)
 
-KstestResult(statistic=0.22652993258106247, pvalue=1.9059409500066205e-33)
+- KstestResult(statistic=0.22652993258106247, pvalue=1.9059409500066205e-33)
 
-Ttest_indResult(statistic=2.60192320578311, pvalue=0.009331719250939272)
+- Ttest_indResult(statistic=2.60192320578311, pvalue=0.009331719250939272)
 
-These boxplots indicate that jobs requiring skills such as SQL, Python, and Tableau have a higher salary than jobs that do not require SQL, python, and Tableau. In addition, the p-values of less than 0.05 from the KS-test and T-tes tell us that there is a statistically significant difference between the salaries for jobs that require SQL, python, and Tableau and those that do not, therefore making it important for anyone seeking data analyst job to posses these skills for a better salary.
+These boxplots demonstrate that jobs requiring skills such as SQL, Python, and Tableau offer higher salaries compared to those that do not. The p-values from both the KS-test and T-test are less than 0.05, indicating a statistically significant difference in salaries between jobs that require these skills and those that don't. This underscores the importance of possessing SQL, Python, and Tableau for anyone seeking a data analyst position with a competitive salary."
+
 
 ![](images/ranked_cities.jpg)
 
 ![](images/company_salaries_boxplot.jpg)
 
-From these visualizations, some of the top cities for data analysts apart from LA, NY, and Atlanta, are cities such as Wichita, Maize, and Tulsa, after the United States and Anywhere being the top, however, this is not a good representation as it is not clear. For the top companies, there is a mix of companies and external contracts therefore some of the top companies for data analyst base on this visualisation are Citi, Edward Jones, and Apex Systems.  
+These visualizations suggest that apart from major hubs like Los Angeles, New York, and Atlanta, cities such as Wichita, Maize, and Tulsa also rank highly for data analyst opportunities, following 'United States' and 'Anywhere' as general categories. However, the representation is unclear and may not accurately reflect the true distribution.
+
+For top employers, the data shows a mix of companies and external contracts. Some of the leading companies hiring data analysts, based on this visualization, include Citi, Edward Jones, and Apex Systems
 
 ## Next Actions
 A further action that can be taken to better this project is to remove outliers in some of the data and see what effect it has, and also for top-ranked cities have better data because the top two are 'anywhere' and the united states, therefore, a better data to make things clear. Similarly, have better data so we do not include contract work included in companies that are hiring. 
