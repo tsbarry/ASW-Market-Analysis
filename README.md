@@ -113,5 +113,31 @@ These visualizations suggest that apart from major hubs like Los Angeles, New Yo
 
 For top employers, the data shows a mix of companies and external contracts. Some of the leading companies hiring data analysts, based on this visualization, include Citi, Edward Jones, and Apex Systems
 
+## Results Findings
+
+The analysis results are summarized as follows:
+
+- The median salary for data analysts is approximately $100,000. The salary distribution is right-skewed, with the mean salary higher than the median.
+A significant number of outliers are present, and removing them could normalize the distribution.
+- Both T-test and KS-test indicate p-values of less than 0.05, suggesting a statistically significant difference between the salaries of remote and non-remote workers.
+- The most in-demand skills include SQL, Excel, Tableau, Python, Power BI, and R. These skills are integral to the daily tasks of data analysts, making them essential for success in the field.
+- Jobs requiring SQL, Python, and Tableau tend to offer higher salaries than those that do not. The p-values from the KS-test and T-test (both < 0.05) confirm a statistically significant difference in salaries, emphasizing the importance of these skills for securing better-paying positions.
+- Major cities like Los Angeles, New York, and Atlanta are top locations for data analysts. Other notable cities include Wichita, Maize, and Tulsa, though some representations in the data may be unclear.
+- Leading companies hiring data analysts include Citi, Edward Jones, and Apex Systems, with a mix of companies and external contracts featured. 
+
+## Recommendations
+
+Based on the analysis, the following is recommended:
+
+- Focus on SQL, Python, Excel, and Tableau, given their impact on salary. Aspiring and current data analysts should prioritize mastering these skills to enhance their employability and earning potential.
+- Data analysts should consider relocating to or seeking opportunities in major cities like Los Angeles, New York, and Atlanta, which are top locations for data analyst roles.
+- Given that on-site positions tend to offer higher salaries, data analysts who prioritize income might consider office-based roles. However, personal preferences for work-life balance and flexibility should also be weighed.
+- Use insights from the analysis to negotiate higher salaries by highlighting expertise in high-demand skills like SQL, Python, and Tableau, especially when applying for roles in higher-paying cities or companies.
+
 ## Next Actions
-A further action that can be taken to better this project is to remove outliers in some of the data and see what effect it has, and also for top-ranked cities have better data because the top two are 'anywhere' and the united states, therefore, a better data to make things clear. Similarly, have better data so we do not include contract work included in companies that are hiring. 
+
+Further action to enhance this project could include: 
+-  Removing outliers from the data and reassessing the distribution and statistical significance of the results. This will help in understanding how these outliers affect the overall analysis and potentially lead to more accurate insights.
+-  Acquiring more precise data to address the issue of generic categories like 'Anywhere' and 'United States' being listed as top cities. This will provide a clearer and more accurate representation of the cities with the highest demand for data analysts.
+-  Ensuring that the data used for identifying top companies hiring data analysts excludes external contracts. This will help in focusing solely on established companies, providing a more accurate reflection of the job market. 
+
