@@ -10,6 +10,7 @@
 - [Data Analysis](#data-analysis) 
 - [Results Findings](#results-findings)
 - [Recommendations](#recommendations)
+- [Next Actions](#next-actions)
 
 ##  Project Overview 
 
