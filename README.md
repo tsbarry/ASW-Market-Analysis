@@ -103,7 +103,7 @@ These boxplots illustrate jobs that require SQL, python, or Tableau versus jobs 
 
 - Ttest_indResult(statistic=2.60192320578311, pvalue=0.009331719250939272)
 
-These boxplots demonstrate that jobs requiring skills such as SQL, Python, and Tableau offer higher salaries compared to those that do not. The p-values from both the KS-test and T-test are less than 0.05, indicating a statistically significant difference in salaries between jobs that require these skills and those that don't. This underscores the importance of possessing SQL, Python, and Tableau for anyone seeking a data analyst position with a competitive salary."
+These boxplots demonstrate that jobs requiring skills such as SQL, Python, and Tableau offer higher salaries compared to those that do not. The p-values from both the KS-test and T-test are less than 0.05, indicating a statistically significant difference in salaries between jobs that require these skills and those that don't. This underscores the importance of possessing SQL, Python, and Tableau for anyone seeking a data analyst position with a competitive salary.
 
 
 ![](images/ranked_cities.jpg)
@@ -120,7 +120,7 @@ The analysis results are summarized as follows:
 
 - The median salary for data analysts is approximately $100,000. The salary distribution is right-skewed, with the mean salary higher than the median.
 A significant number of outliers are present, and removing them could normalize the distribution.
-- Both T-test and KS-test indicate p-values of less than 0.05, suggesting a statistically significant difference between the salaries of remote and non-remote workers.
+- Both the T-test and KS-test indicate p-values of less than 0.05, suggesting a statistically significant difference between the salaries of remote and non-remote workers.
 - The most in-demand skills include SQL, Excel, Tableau, Python, Power BI, and R. These skills are integral to the daily tasks of data analysts, making them essential for success in the field.
 - Jobs requiring SQL, Python, and Tableau tend to offer higher salaries than those that do not. The p-values from the KS-test and T-test (both < 0.05) confirm a statistically significant difference in salaries, emphasizing the importance of these skills for securing better-paying positions.
 - Major cities like Los Angeles, New York, and Atlanta are top locations for data analysts. Other notable cities include Wichita, Maize, and Tulsa, though some representations in the data may be unclear.
